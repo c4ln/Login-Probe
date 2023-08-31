@@ -24,6 +24,6 @@ This project is intended solely for educational purposes. The goal is to raise a
    ./main <port/listen> <http/https> <exploit 1=yes,0=no>
 
 ## Usage example:
-zmap -p <port> -q | ./main <port used in zmap> http 0
+zmap -p (port) -q | ./main (port used in zmap) http 0
 
 Ensure, the port of the IP is the same port given as the first argument. 
